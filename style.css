@@ -33,28 +33,16 @@ header > div {
     margin-right: 1rem;
   }
 
-  .wrapper-2{  
+  .search-bar-form {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
   }
 
-  .buttons-form{  
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.npm-logo{
-    width: 80px;
-    padding: 0 20px;        
-}
-
-.wrapper-2 > .search-bar-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.search-bar-form > .npm-logo{
+    width: 80px;   
+    padding: 0 20px;            
 }
 
 .bar{   
@@ -73,7 +61,6 @@ header > div {
   font-size: 16px;
   cursor: pointer;
   text-align: center;
-  
 }
 
 .btn-form-2{
@@ -84,7 +71,6 @@ header > div {
   cursor: pointer;
   text-align: center;
   margin-left: 30px;
-  
 }
 
 .btn-form-3{
