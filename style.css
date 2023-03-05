@@ -106,12 +106,17 @@ header > div {
   font-size: 16px;
   text-align: center;
 }
-
+#section-one > div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 .btn-see-plans{
   display: block;
   width: 100%;
   border: none;
   background-color: #FB3B49;
+  color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -123,7 +128,7 @@ header > div {
   display: block;
   width: 100%;
   border: none;
-  background-color: transparent;
+  background-color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
