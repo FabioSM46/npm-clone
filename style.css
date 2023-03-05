@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-body {
-  font-family: 'Poppins';
-}
+html  {font-family: 'Poppins', sans-serif;}
+
 
 header > div {
     padding: 0 20px 0 20px;
@@ -34,6 +33,7 @@ header > div {
   }
 
   .search-bar-form {
+    padding: 20px 30px 20px 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,11 +46,11 @@ header > div {
 }
 
 .bar{   
-    height: 25px; 
+    height: 30px; 
     width: 100%;   
-    border: 1px solid #555;
+    border: none;
     padding: 9px 4px 9px 40px;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+    background: rgba(211, 211, 211, 0.267) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
   }
 
 .btn-form-1{
@@ -102,8 +102,9 @@ header > div {
   margin-bottom: 0;
 }
 
-#section-one article{
+#section-one > article{
   font-size: 16px;
+  text-align: center;
 }
 
 .btn-see-plans{
@@ -146,11 +147,56 @@ header > div {
 }
 
 .triangle-hexagon{
-  width:10%;
+  width: 200px;
   margin-top: 50px;
 }
 
 #section-two article{
   font-size: smaller;
   text-align: center;
+}
+
+#section-three{
+  padding: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+}
+
+.zero-conf,
+.team-management,
+.familiar-features,
+.npm-audit{
+width: 30px;
+}
+
+#section-three h4{
+  color: #ED1C24;
+  font-weight: 900;
+}
+
+#section-three  p{
+  font-size: smaller;
+}
+
+.form-footer{
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.form-footer button{
+  display: block;
+  width: auto;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
 }
