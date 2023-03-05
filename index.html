@@ -1,11 +1,21 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<link rel="stylesheet" href="./style.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NPM-clone for practicing web development.">
+    <title>NPM-clone</title> 
+    <link rel="stylesheet" href="./style.css">   
+    <link rel="icon" href="https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png">  
+</head>
+
+<body>
 
 <header>
     <div class="wrapper-1">
       <div>
-        <img class="black-heart" src="images\black-heart.png" alt="black heart" />
+        <img class="black-heart" src="images\black-heart.png" alt="black heart logo" />
         <span> Nifty Penguin Magic </span>
       </div>
       <nav>
@@ -20,8 +30,8 @@
       </nav>
     </div>
         
-        <form class="search-bar-form" action="/search" method="post">
-            <img class="npm-logo" src="images\npm-logo.png" alt="npm logo" />
+        <form class="search-bar-form" action="search" method="post">
+            <img class="npm-logo" src="images\npm-logo.png" alt="NPM logo" />
             <input class="bar" type="text" placeholder="Search packages">           
             <button class="btn-form-1" type="submit"> Search</button>
             <button class="btn-form-2" type="button">Join</button>
@@ -29,8 +39,6 @@
         </form>
     
 </header>
-
-<body>
 
 <section id="section-one">
     <h1>Build amazing things</h1>
@@ -41,11 +49,11 @@
         </p>    
     </article>
     <div>
-        <form action="/plans" method="post">
+        <form action="plans" method="post">
             <button class="btn-see-plans" type="submit">See plans</button>
         </form>
 
-        <form action="/join" method="post">
+        <form action="join" method="post">
             <button class="btn-join-ff" type="submit">Join for free</button>
         </form>    
     </div>
@@ -107,12 +115,13 @@
         </p>
     </div>
 </section>
-</body>
 
 <footer>
-    <form class="form-footer" action="\create" method="post">
+    <form class="form-footer" action="create" method="post">
         <button type="button">Create an Org</button>
     </form>
 </footer>
+
+</body>
 
 </html>
