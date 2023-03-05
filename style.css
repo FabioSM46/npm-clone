@@ -76,10 +76,11 @@ header > div {
 .btn-form-3{
   display: block;
   border: none;
+  white-space:nowrap;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  text-align: center;
+  text-align:center;
 }
 
 #section-one{
@@ -113,6 +114,7 @@ header > div {
 }
 .btn-see-plans{
   display: block;
+  font-weight: 800;
   width: 100%;
   border: none;
   background-color: #FB3B49;
@@ -126,6 +128,7 @@ header > div {
 
 .btn-join-ff{
   display: block;
+  font-weight:800;
   width: 100%;
   border: none;
   background-color: white;
@@ -195,6 +198,7 @@ padding: 20px;
 
 .form-footer button{
   display: block;
+  font-weight: 700;
   width: auto;
   border: none;
   background-color: black;
