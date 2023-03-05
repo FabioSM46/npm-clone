@@ -57,10 +57,12 @@ header > div {
   display: block; 
   border: none;
   background-color: #fb3e44;
+  color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+  width: 150px;
 }
 
 .btn-form-2{
@@ -71,6 +73,7 @@ header > div {
   cursor: pointer;
   text-align: center;
   margin-left: 30px;
+  width: 150px;
 }
 
 .btn-form-3{
@@ -81,6 +84,7 @@ header > div {
   font-size: 16px;
   cursor: pointer;
   text-align:center;
+  width: 150px;
 }
 
 #section-one{
@@ -89,6 +93,7 @@ header > div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 #section-one div{
@@ -115,7 +120,7 @@ header > div {
 .btn-see-plans{
   display: block;
   font-weight: 800;
-  width: 100%;
+  width: 250px;
   border: none;
   background-color: #FB3B49;
   color: white;
@@ -129,7 +134,7 @@ header > div {
 .btn-join-ff{
   display: block;
   font-weight:800;
-  width: 100%;
+  width: 250px;
   border: none;
   background-color: white;
   padding: 14px 28px;
@@ -199,7 +204,7 @@ padding: 20px;
 .form-footer button{
   display: block;
   font-weight: 700;
-  width: auto;
+  width: 250px;
   border: none;
   background-color: black;
   color: white;
